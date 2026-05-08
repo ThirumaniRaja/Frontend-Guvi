@@ -8,4 +8,4 @@ function greet(name, callback) {
     callback();
 }
 
-greet("Thiru", sayHello);
+greet("Krishvin", sayHello);
