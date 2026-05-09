@@ -23,3 +23,14 @@ console.log("22-->",result2);
 
 let result3 = arr.findLast(num => num > 3);    
 console.log("25-->",result3);
+
+
+const myred = arr.reduce((acc, curr) => acc + curr, 0);
+
+const myred1 = arr.reduceRight((acc, curr) => acc * curr, 1);
+
+console.log(myred);
+console.log(myred1);
+
+const doubleArr = arr.map(num => num * 2);
+console.log(doubleArr);
