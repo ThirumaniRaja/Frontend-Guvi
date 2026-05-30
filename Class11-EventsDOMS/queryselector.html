@@ -1,0 +1,28 @@
+<div class="cards">Laptop</div>
+<div class="cards">Mobile</div>
+<div class="cards">Tablet</div>
+<div class="cards">Monitor</div>
+<div class="cards">Keyboard</div>
+
+
+<button type="button" onclick="showSelected()">Show Selected</button>
+
+<script>
+    function showSelected() {
+
+        const cards = document.querySelectorAll(".cards");
+        console.log(cards);
+        // cards.forEach(function(card) {
+        //     card.style.backgroundColor = "lightblue";
+        //     card.style.padding = "20px";
+        //     card.style.margin = "10px";
+        //     card.style.border = "2px solid black";
+        // });
+        for(let i=0; i<cards.length; i++) {
+            cards[i].style.backgroundColor = "lightblue";
+            cards[i].style.padding = "20px";
+            cards[i].style.margin = "10px";
+            cards[i].style.border = "2px solid black";
+        }
+    }
+    </script>
