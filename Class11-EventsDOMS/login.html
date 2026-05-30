@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    input {
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <input id="username" placeholder="Enter the username"> <br><br>
+  <input id="password" placeholder="Enter the password" type="password"> <br><br>
+  <button onclick="login()">Login</button>
+  <h2 id="message"></h2>
+</body>
+<script>
+function login() {
+  const username = document.getElementById("username");
+  const password = document.getElementById("password");
+  const message = document.getElementById("message");
+  if(username.value === "admin" && password.value === "12345") {
+    message.textContent = "Login Successfull";
+    message.style.color = "green";
+  } else {
+    message.textContent = "Invalid Credentials";
+    message.style.color = "red";
+  }
+}
+</script>
+</html>
