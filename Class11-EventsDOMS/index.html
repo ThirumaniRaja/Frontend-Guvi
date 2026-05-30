@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+  .active {
+    background-color: firebrick;
+    color: white;
+    padding: 20px;
+    border: 5px solid green;
+  }
+</style>
+    </head>
+<body>
+<!-- ex1 -->
+<h1 id="heading">this is heading tag</h1>
+
+<div id="card">
+  Product Card
+</div>
+<div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-SfzikhR2xc7K_zwJEPOBbGJ9TxD680cwA&s" id="photo">
+  <button onclick="addClass()">
+    Add Style
+  </button>
+  <button onclick="removeClass()">
+    Remove Style
+  </button>
+  <button onclick="toggleClass()">
+    Add/Remove
+  </button>
+  <button onclick="changeImage()">
+    Change image
+  </button>
+</div>
+<script>
+  const heading = document.getElementById("heading");
+  console.log(heading);
+  heading.textContent = "Welcome BOSS";
+</script>
+<!-- ex: 2 -->
+<h1 id="heading1">this is example2</h1>
+<input id="username" placeholder="Enter your name"> <br><br>
+<input id="password" placeholder="Enter your Password" type="password">
+<button onclick="submit()">Submit</button>
+<button onclick="togglePassword()">Show/hide</button>
+<h2 id="result"></h2>
+<script>
+function submit(){
+  const heading1 = document.getElementById("heading1");
+  heading1.textContent = "Welcome BOSS example 2";
+  heading1.style.backgroundColor = "orange";
+  heading1.style.padding = "20px";
+  heading1.style.color = "blue";
+  // select the input
+  const input = document.getElementById("username");
+  const result = document.getElementById("result");
+  result.textContent = input.value;
+}
+
+function togglePassword() {
+  const password = document.getElementById("password");
+  if(password.type === "password") {
+    password.type = "text";
+  } else {
+    password.type = "password";
+  }
+}
+
+function addClass() {
+  document.getElementById('card').classList.add('active');
+}
+function removeClass() {
+  document.getElementById('card').classList.remove('active');
+}
+function toggleClass() {
+  document.getElementById('card').classList.toggle('active');
+}
+function changeImage() {
+  document.getElementById('photo').src = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb';
+}
+</script>
+</body>
+</html>

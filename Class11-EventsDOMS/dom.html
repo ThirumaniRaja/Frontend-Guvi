@@ -1,0 +1,50 @@
+<!-- querySelectorAll()
+=================
+returns all the matching elements
+nodelist
+use when multiple elements needed -->
+
+
+<p class="text">Html</p>
+<p class="text">CSS</p>
+<p class="text">Javascript</p>
+
+<div>This is divison</div>
+
+<h1 id="heading">This is heading</h1>
+
+<script>
+    const para = document.querySelector(".text"); //class
+    const div = document.querySelector("div"); //tag
+    const heading = document.querySelector("#heading")
+    console.log(para);
+    console.log(div);
+    console.log(heading)
+
+    function showName() {
+    const username = document.querySelector(".username");
+    document.querySelector("#result").textContent = "Welcome " + username.value;
+}
+</script>
+
+<!-- ex -->
+<div class="banner">Summer Sale</div>
+<button onclick="changeBanner()">Update</button>
+
+<script>
+function changeBanner() {
+    const banner = document.querySelector(".banner");
+    banner.textContent = "MEGA SALE% OFFER"
+}
+
+</script>
+
+<style>
+</style>
+
+<input type="text" class="username" placeholder="Enter the username">
+<button onclick="showName()">Login</button>
+<h2 id="result"></h2>
+<script>
+// ...existing code...
+</script>
