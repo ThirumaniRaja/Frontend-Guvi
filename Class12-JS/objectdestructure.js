@@ -14,25 +14,69 @@ const student = {
 // new way
 const {id, name, role, city} = student;
 
-console.log(id);
-console.log(name);
-console.log(role);
-console.log(city);
+// console.log(id);
+// console.log(name);
+// console.log(role);
+// console.log(city);
 
 const employee = {
     name: "Ram",
-    city: "bangalore"
+    city: "bangalore",
+    age:30
 };
 // different variable name..normal way
 // const employeeName = employee.name;
 // const employeeCity = employee.city;
-const {name: employeeName, city: employeeCity} = employee;
-console.log(employeeName, employeeCity);
+const {name: employeeName, city: employeeCity, age: employeeAge} = employee;
+// console.log("emp",employeeName, employeeCity, employeeAge);
 
 const user = {
-    name: "ram"
+    name: "ram",
+    address: {
+        city: "bangalore",
+        state: "KA"
+    },
+    skills: ["HTML", "CSS"]
 };
-// normal way
-// const city2 = user.city2 || "bangalore";
-const {city2 = "bangalore"} = user;
-console.log(city2);
+
+
+const updatedUser = {
+    ...user,
+    address: {
+        ...user.address,
+        city: "chennai"
+    },
+    skills: [...user.skills, "javascript"]
+  
+};
+
+console.log("user",user);
+console.log("updated user", updatedUser);
+
+
+const students = {
+    name: "venkat",
+    city: "bangalore",
+    deppartment: {
+        name: "cse",
+        head: "ram",
+        caterogy: {
+            name: "engineering",
+            type: "full time"
+         }
+    },
+    skills: ["HTML", "CSS"]
+};
+
+const updatedStudents = {
+    ...students,
+    deppartment: {
+      ...students.deppartment,
+      caterogy:{
+        ...students.deppartment.caterogy,
+        name:"IT"
+      } 
+  }
+};
+
+console.log(updatedStudents)
