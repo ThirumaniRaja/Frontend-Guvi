@@ -71,12 +71,14 @@ const students = {
 const updatedStudents = {
     ...students,
     deppartment: {
-      ...students.deppartment,
-      caterogy:{
-        ...students.deppartment.caterogy,
-        name:"IT"
-      } 
-  }
-};
+        ...students.deppartment,
+        caterogy: {
+            ...students.deppartment.caterogy,
+            type: "part time"
+        }
+    },
+    skills: [...students.skills, "javascript"]
+}
+
 
 console.log(updatedStudents)
