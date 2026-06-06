@@ -1,6 +1,8 @@
 install typescript
 npm install typescript --save-dev
 
+npm init -y
+
 create tsconfig
 npx tsc -init
 
@@ -12,7 +14,7 @@ npm install -D ts-node typescript
 
 then to run ts 
 npx ts-node app.ts
-
+   
 run ts directly 2nd option
 npm install -D tsx
 
