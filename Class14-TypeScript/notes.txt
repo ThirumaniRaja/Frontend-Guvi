@@ -1,0 +1,19 @@
+install typescript
+npm install typescript --save-dev
+
+create tsconfig
+npx tsc -init
+
+build dist
+npx tsc
+
+run ts directly
+npm install -D ts-node typescript
+
+then to run ts 
+npx ts-node app.ts
+
+run ts directly 2nd option
+npm install -D tsx
+
+npx tsx app.ts
