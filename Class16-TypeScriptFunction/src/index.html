@@ -1,0 +1,62 @@
+// ...existing code...
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Events Demo</title>
+</head>
+<body>
+  <!-- inline event handling HTML -->
+  <button onclick="showMessage()">Click</button>
+
+  <script>
+    function showMessage() {
+      alert("Hello how are you going by flight how is the day");
+    }
+  </script>
+
+  <!-- use the DOM event properties -->
+  <button id="btn">Click ME</button>
+
+  <script>
+    const button = document.getElementById("btn");
+    if (button) {
+      button.onclick = function () {
+        alert("dom way of using events");
+      };
+
+      // Reassigning onclick replaces the previous handler
+      button.onclick = function () {
+        alert("venkat");
+      };
+    }
+  </script>
+
+   <button id="btn1">Click ME</button>
+
+  <script>
+    const button1 = document.getElementById("btn1");
+    if (button1) {
+      button1.addEventListener("click", function () {
+        alert("Payment is processing");
+      });
+
+      button1.addEventListener("click", function () {
+        alert("Payment still process please wait");
+      });
+
+      button1.addEventListener("click", function () {
+        alert("Please dont refresh the page untill the payment done");
+      });
+
+      button1.addEventListener("click", function () {
+        alert("Payment is processed");
+      });
+
+      button1.addEventListener("click", function () {
+        alert("Payment is DONE");
+      });
+    }
+  </script>
+</body>
+</html>
