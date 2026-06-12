@@ -1,6 +1,6 @@
 let user = {
   id: 1,
-  name: "venkat",
+  name: "Thiru",
   address: {
     city: "bangalore",
     state: "KA"

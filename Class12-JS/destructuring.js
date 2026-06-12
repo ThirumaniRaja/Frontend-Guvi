@@ -21,7 +21,7 @@ console.log(name);
 console.log(age);
 console.log(city);
 
-let names = ["ram", "venkat", "sai"];
+let names = ["ram", "Thiru", "sai"];
 // let first = names[0];
 // let third = names[2];
 let [first, , third] = names;
@@ -38,7 +38,7 @@ console.log(name1);
 console.log(city1);
 
 function getUser() {
-    return ["ram", "venkat"]
+    return ["ram", "Thiru"]
 }
 //old way
 // let user = getUser();

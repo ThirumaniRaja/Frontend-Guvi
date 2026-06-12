@@ -2,7 +2,7 @@ function getUser(callback) {
     console.log("Fetching user...");
     const user = {
         id: 101,
-        name: "venkat"
+        name: "Thiru"
     }
     callback(user)
 }

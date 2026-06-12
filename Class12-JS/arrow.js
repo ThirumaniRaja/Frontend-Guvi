@@ -14,11 +14,11 @@ showMessage1()
 // function greet(name){
 //     console.log("hello " + name)
 // }
-// greet("venkat")
+// greet("Thiru")
 
 const greet = (name) => console.log("hello " + name)
 
-greet("venkat")
+greet("Thiru")
 
 // ex2
 // function add(a, b) {

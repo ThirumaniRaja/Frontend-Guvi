@@ -7,7 +7,7 @@ function subtract(a, b){
     return a - b;
 }
 
-const firstName = "venkat";
+const firstName = "Thiru";
 const lastName = "ram";
 const age = 20;
 

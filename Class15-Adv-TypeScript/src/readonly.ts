@@ -4,7 +4,7 @@ type Student = {
 }
 
 let student1: Student = {
-    name: "venkat",
+    name: "Thiru",
     age: 20
 }
 
@@ -26,7 +26,7 @@ function printCustomer(customer: Cutomer){
 }
 
 printCustomer({
-    name: "venkat"
+    name: "Thiru"
 })
 
 printCustomer({

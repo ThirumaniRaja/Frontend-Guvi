@@ -42,7 +42,7 @@ let employee = {
 
 let employee1 = {
     id: 2,
-    name: "venkat"
+    name: "Thiru"
 };
 
 let copyEmp = Object.assign({}, employee); //normal way
