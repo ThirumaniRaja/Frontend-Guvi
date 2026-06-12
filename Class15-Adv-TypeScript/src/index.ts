@@ -34,7 +34,7 @@ const emp1: Employee = {
 
 const emp2: Employee = {
     id: 2,
-    name: "venkat",
+    name: "Thiru",
     age: 40
 };
 

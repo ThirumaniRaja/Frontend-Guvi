@@ -73,7 +73,7 @@ let student1: {
     skills: string[];
 } = {
     id: 1,
-    name: "venkat",
+    name: "Thiru",
     skills: ["HTML", "CSS", "javascript"]
 };
 

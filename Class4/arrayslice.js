@@ -9,7 +9,7 @@ console.log(result);
 const sliceResult = result.slice(1,4);
 console.log(sliceResult);
 
-const students = ["Thiru", "venkat", "raja", "vivek", "jagu"];
+const students = ["Thiru", "Thiru", "raja", "vivek", "jagu"];
 let newStudents = students.slice(0,2);
 console.log(newStudents);
 

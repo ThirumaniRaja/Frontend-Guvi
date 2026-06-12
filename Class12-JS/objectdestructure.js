@@ -1,6 +1,6 @@
 const student = {
     id: 101,
-    name: "venkat",
+    name: "Thiru",
     role: "Mentor",
     city: "bangalore"
 };
@@ -55,7 +55,7 @@ console.log("updated user", updatedUser);
 
 
 const students = {
-    name: "venkat",
+    name: "Thiru",
     city: "bangalore",
     deppartment: {
         name: "cse",

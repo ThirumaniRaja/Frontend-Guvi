@@ -41,7 +41,7 @@ console.log(sum1(10, 20));
 type Names = string[];
 const users: Names = [
     "ram",
-    "venkat",
+    "Thiru",
     "siva"
 ];
 console.log(users);
@@ -52,7 +52,7 @@ interface Names1 {
 }
 const users1: Names1 = [
     "ram",
-    "venkat",
+    "Thiru",
     "siva"
 ];
 console.log(users1);
@@ -93,6 +93,6 @@ interface Student {
 
 const st11: Student = {
     id: 101,
-    name: "venkat"
+    name: "Thiru"
 };
 console.log(st11);
