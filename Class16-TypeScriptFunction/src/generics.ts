@@ -9,7 +9,7 @@ function getValueAny(value: any): any {
 }
 
 let numAny = getValueAny(100);
-let nameAny = getValueAny("venkat");
+let nameAny = getValueAny("Thiru");
 let statusAny = getValueAny(true);
 
 // numAny.toUpperCase(); // this would compile (because of any) but fail at runtime
@@ -27,7 +27,7 @@ function getValue<T>(value: T): T {
 let num = getValue<number>(100);
 
 // pass the string
-let name = getValue<string>("venkat");
+let name = getValue<string>("Thiru");
 
 // pass the boolean
 let status = getValue<boolean>(true);

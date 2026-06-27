@@ -18,7 +18,7 @@ const student1 = {
 student1.displayInfo();
 
 const student2 = {
-    name: "Venkat",
+    name: "Thiru",
     age: 20,
     city: "Chennai",
 
