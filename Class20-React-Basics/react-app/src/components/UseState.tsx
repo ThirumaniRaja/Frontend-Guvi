@@ -11,7 +11,7 @@ function UseStateCom() {
     // initial state
     const [students, setStudents] = useState<string[]>([
         "Ram",
-        "Venkat",
+        "Thiru",
     ]);
 
     // object type
