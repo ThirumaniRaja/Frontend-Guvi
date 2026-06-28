@@ -3,10 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import Search from './Search.tsx'
+import User from './Api/user.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
     <Search />
+    <User />
   </StrictMode>,
 )
