@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 function User() {
     const API_URL = "https://jsonplaceholder.typicode.com/users";
     const [users, setUsers] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         fetch(API_URL)
@@ -13,8 +14,13 @@ function User() {
             })
             .finally(() => {
                 console.log("Fetch operation completed.");
+                setLoading(false);
             });
     }, []);
+
+    if (loading) {
+        return <div>Loading...</div>;
+    }
 
     return (
         <div>
