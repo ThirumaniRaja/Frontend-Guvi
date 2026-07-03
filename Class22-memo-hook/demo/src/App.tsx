@@ -3,7 +3,9 @@ import Age from "./components/Age";
 import AgeBtn from "./components/AgeBtn";
 import Count from "./components/Count";
 import CountBtn from "./components/CountBtn";
+import UseRefDemo from "./components/UseRefDemo";
 import { useCallback, useState } from "react";
+import ReducerDemo from "./components/ReducerDemo";
 
 function App() {
 
@@ -34,6 +36,11 @@ function App() {
       <Age age={age} />
 
       <AgeBtn handleAge={handleAge} />
+
+      <UseRefDemo />
+
+      <h2>Im use reducer</h2>
+      <ReducerDemo />
     </>
   );
 }
