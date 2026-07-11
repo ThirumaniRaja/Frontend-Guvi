@@ -1,0 +1,47 @@
+
+context APi... we can use context API which allows us to share data across multiple components without passing the props manually
+ through every intermediate components
+
+
+REDUX... 
+
+REDUX is the global state management library.. it stores the data that needs to be shared across muliple components
+
+
+RTK (Redux Toolkit),, recommended way to write the redux 
+
+
+Redux: State management library that stores shared application state in a single store and updates it using the actions and reducers 
+
+Redux Store: Centralized object that holds application state
+
+State: Data used by the application
+
+Action: JS object describing what action happened 
+
+Reducer: is a function that returns a new state based on the current state and action 
+
+Dispatch: function that sends an action to the redux store 
+
+RTK: 
+
+
+
+//RTK components
+
+1) store.. is the central place where the entire application state is stored..
+with use the store, all components share one common state
+
+2) slice: Slice is the feature that contains the state, reducers and actions 
+
+3) initial state. this is the default data 
+
+4) Reducer: A reducer is a function that updates the state based on an action 
+
+5) Action: Tells redux what happened
+
+6) Dispatch: Dispatch sends the action 
+
+7) useSelector()... reads data from the store 
+
+8) useDispatch().... returns the Dispatch function ..used to send the actions 
