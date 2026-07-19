@@ -1,0 +1,55 @@
+AI
+Artificial Intelligence
+
+q) When we unlock you iPhone with face ID, phone will recognizes your face.. ..AI
+
+Ai is a compueters' ability to perform a task that normally requires human 
+intelligence.. 
+
+human => think -> given number
+computer -> learn -> gives the answer
+
+Ai will simply making a computer behave intelligently 
+
+
+
+
+
+Machine Learning(ML).. 
+
+Apple -> by seeing many apples + color + shape..
+
+
+Gmail automatically moves spam/promotions into the specific folder..
+because google/gamil learned millions of exmples..
+
+ML => machine learning is a way of teaching computers using examples instead of rules.. we dont program every rule, we give examples, and it will understand..
+
+
+
+
+Neural Network.. Is a group of connected nodes(neurons) that work together to make the decisions
+
+
+------------------------------------------------
+when face unlock identifies your face.... it unlock the phone
+
+A neural network is a group of connected notes that work together to make decisions similar to how neurons work int he human brain
+
+input -> node -> node -> node -> node -> output
+
+A browser-based Student Management Portal built for GUVI HCL. It supports two roles — Admin and Student — with role-based access control enforced via localStorage sessions.
+
+Admin can:
+
+View a full analytics dashboard (enrollment trends, grade/status distributions, subject performance)
+Manage students via CRUD (add, edit, delete) with form validation
+Filter/sort/paginate the student table
+Export data as CSV or PDF
+Student can:
+
+View a personal dashboard with grades, attendance charts, and class rankings
+View their ID card and subject performance
+Browse placement companies and alumni success stories
+
+https://venkatssguvistudentmanagement.netlify.app/login.html
