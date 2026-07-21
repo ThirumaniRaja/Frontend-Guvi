@@ -10,7 +10,7 @@ const groq = new Groq({
 export default function App() {
   const [messages, setMessages] = useState([
     {
-      role: "Assistant",
+      role: "assistant",
       content:
         "Hi! I'm your AI Assistant powered by Thiruz Infotech. How can I help you today?",
     },
